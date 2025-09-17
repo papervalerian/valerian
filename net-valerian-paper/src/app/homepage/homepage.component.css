@@ -1,3 +1,44 @@
 :host { 
     color: pink
 }
+
+.flex-row-container-wrap {
+    display:flex;
+    flex-flow:row wrap;
+}
+
+.flex-column-container-nwrap {
+    display:flex;
+    flex-flow:column nowrap;
+}
+
+.flex-item-fixed {
+    display:block;
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.flex-item {
+    display:block;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+
+.debugb {
+    outline:5px solid blue;
+}
+.debugr {
+    border:2px solid red;
+}
+.debugp {
+    border:2px solid pink;
+}
+
+.basic {
+    width:100%;
+    height:20vw;
+}
+
+#root-div {
+    background: #464064
+}
